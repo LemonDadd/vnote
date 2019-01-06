@@ -1,0 +1,50 @@
+/* Localized versions of Info.plist keys */
+
+"AppName" = "VNote";
+
+"HomeButtonItemMoreAction" = "More";
+"HomeButtonItemListAction" = "过往";
+
+"TextPlaceHolder" = "";
+"SpeechNoResult" = "SpeechNoResult";
+
+"ActionSheetCancel" = "Cancel";
+"ActionSheetSave" = "Save";
+"ActionSheetCopy" = "Copy";
+"ActionSheetMail" = "Mail";
+"ActionSheetWeixin" = "分享到朋友圈";
+
+"AddTitleForNote" = "给笔记加个标题？";
+"Sure" = "Sure";
+
+"CopySuccess" = "CopySuccess";
+"DeleteFileSuccess" = "DeleteFileSuccess";
+
+"SendEmailSuccess" = "SendEmailSuccess";
+"SendEmailFail" = "SendEmailFail";
+"CanNoteSendMail" = "CanNoteSendMail";
+
+"VoiceInput" = "VoiceInput";
+"ImageInputTitle" = "图片输入";
+"ImageInputMessage" = "选择一张带有文字的图片，掌上助手将会识别出图片中的文字。请尽量使用清晰度较高，背景单纯的图片";
+"ImageInputCancel" = "知道了";
+"ImageInputSure" = "识别一下";
+
+"SaveSuccess" = "SaveSuccess";
+"SaveFail" = "SaveFail";
+
+"InputViewTitle" = "Title";
+"InputViewText" = "Text";
+"InputTextNoData" = "InputTextNoData";
+"NoTitleNote" = "NoTitleNote";
+
+"Recognizing" = "Recognizing...";
+"RecognizeFail" = "RecognizeFail";
+
+// About
+"AboutTitle" = "About";
+"AboutText" = "掌上助手是一款为语音设计的笔记本，你只需要通过语音输入，即可完成笔记的书写。\n大部分情况下你无需动笔，只需要靠说，就可以记下所思所想，是提高效率的好工具。\n感谢您的使用,thx!您的使用是我工作的最大动力。";
+
+// Address book
+"GotoUploadAB" = "GotoUploadAB";
+"UploadABForBetter" = "UploadABForBetter";

@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  Voice2Note
+
+  Created by liaojinxing on 14-6-11.
+  Copyright (c) 2014年 jinxing. All rights reserved.
+*/
+
+
+// Home
+
+"AppName" = "VNote";
+
+"HomeButtonItemMoreAction" = "More";
+"HomeButtonItemListAction" = "过往";
+
+"TextPlaceHolder" = "";
+"SpeechNoResult" = "SpeechNoResult";
+
+"ActionSheetCancel" = "Cancel";
+"ActionSheetSave" = "Save";
+"ActionSheetCopy" = "Copy";
+"ActionSheetMail" = "Mail";
+"ActionSheetWeixin" = "分享到朋友圈";
+
+"AddTitleForNote" = "给笔记加个标题？";
+"Sure" = "Sure";
+
+"Fail" = "Fail";
+"Success" = "Success";
+"CopySuccess" = "CopySuccess";
+"DeleteFileSuccess" = "DeleteFileSuccess";
+
+"SendEmailSuccess" = "SendEmailSuccess";
+"SendEmailFail" = "SendEmailFail";
+"CanNoteSendMail" = "CanNoteSendMail";
+
+"VoiceInput" = "VoiceInput";
+"ImageInputTitle" = "图片输入";
+"ImageInputMessage" = "选择一张带有文字的图片，掌上助手将会识别出图片中的文字。请尽量使用清晰度较高，背景单纯的图片";
+"ImageInputCancel" = "知道了";
+"ImageInputSure" = "识别一下";
+
+"SaveSuccess" = "SaveSuccess";
+"SaveFail" = "SaveFail";
+
+"InputViewTitle" = "Title";
+"InputViewText" = "Text";
+"InputTextNoData" = "InputTextNoData";
+"NoTitleNote" = "NoTitleNote";
+
+"Recognizing" = "Recognizing...";
+"RecognizeFail" = "RecognizeFail";
+
+// About
+"AboutTitle" = "About";
+"AboutText" = "VNote is a notebook designed for voice. You only need to input voice to write notes. Most of the time you can write down your thoughts without having to write them down. Thank you for using!! Your use is the biggest motivation of my work.";
+
+// Address book
+"GotoUploadAB" = "GotoUploadAB";
+"UploadABForBetter" = "UploadABForBetter";

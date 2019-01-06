@@ -1,0 +1,39 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIColor+VNHex.h"
+#import "UIColor+expanded.h"
+#import "Masonry.h"
+#import "UIImage+Common.h"
+#import "UIButton+ClickedBlock.h"
+#import "UIAlertView+CompleteBlock.h"
+#import "CustomView.h"
+#import <UserNotifications/UserNotifications.h>
+#import <AVOSCloud/AVOSCloud.h>
+#import "NSDate+JKExtension.h"
+#import "SVProgressHUD.h"
+#import <MJExtension/MJExtension.h>
+
+#define CLEAR_COLOR                     [UIColor clearColor]
+#define WEAK_SELF                       typeof(self) __weak weakSelf = self;
+#define STRONG_SELF                     typeof(weakSelf) __strong strongSelf = weakSelf;
+#define UIColorFromHexString(value)     [UIColor colorWithHexString:value andAlpha:1.0f]
+#define LString(obj)                    (obj) //项目中做国际化的，懒得改了，写个宏
+#define SCREEN_WIDTH                    [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT                   [UIScreen mainScreen].bounds.size.height
+#define CELL_IDENTIFY_WITH_OBJECT(obj)  NSStringFromClass([obj class])
+
+#endif

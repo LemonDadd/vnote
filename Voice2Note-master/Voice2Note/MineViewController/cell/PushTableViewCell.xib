@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PushTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1mR-gq-Ldr">
+                        <rect key="frame" x="255" y="6" width="49" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="U77-2l-Css"/>
+                            <constraint firstAttribute="width" constant="47" id="esY-es-2WF"/>
+                        </constraints>
+                    </switch>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmT-7f-BXP">
+                        <rect key="frame" x="188" y="7" width="59" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="59" id="Afb-dA-Wn8"/>
+                            <constraint firstAttribute="height" constant="30" id="bP2-Go-ywx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="| 20:00 |"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1mR-gq-Ldr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="3se-Nl-TgX"/>
+                    <constraint firstItem="rmT-7f-BXP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="By4-F3-AKr"/>
+                    <constraint firstAttribute="trailing" secondItem="1mR-gq-Ldr" secondAttribute="trailing" constant="18" id="Ewj-iS-DuP"/>
+                    <constraint firstAttribute="bottom" secondItem="1mR-gq-Ldr" secondAttribute="bottom" constant="6.5" id="anF-T8-Nhm"/>
+                    <constraint firstItem="1mR-gq-Ldr" firstAttribute="leading" secondItem="rmT-7f-BXP" secondAttribute="trailing" constant="8" id="e6n-md-992"/>
+                    <constraint firstAttribute="bottom" secondItem="rmT-7f-BXP" secondAttribute="bottom" constant="6.5" id="qnV-SG-OqX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="push" destination="1mR-gq-Ldr" id="94v-MY-k2U"/>
+                <outlet property="time" destination="rmT-7f-BXP" id="JVv-Lu-Bt8"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
